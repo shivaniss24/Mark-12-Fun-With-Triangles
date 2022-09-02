@@ -9,10 +9,10 @@ function isTriangle()
     const blank="";
     if(sumOfAngles===180)
     {
-        outputElement.innerText="yay,The angles form a triangle";
+        outputElement.innerText="yay,The angles form a triangle 💯";
     }
     else{
-        outputElement.innerText="oh no angles dont form a triangle";
+        outputElement.innerText="oh no angles dont form a triangle 👎";
     }
  
 }
