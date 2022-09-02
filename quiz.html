@@ -6,13 +6,14 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Triangle Quiz</title>
+   <link href="quiz.css" rel="stylesheet">
 </head>
 
 <body>
    <h1>Triangle Quiz</h1>
    <form class="quiz-form">
       <div class="question-container">
-         <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
+         <p>1. What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
          <label>
             <input type="radio" name="question1" value="45°">45°
          </label>
@@ -25,7 +26,7 @@
       </div>
 
       <div class="question-container">
-         <p>If a triangle has an angle of 90 degrees, what is it called?</p>
+         <p>2. If a triangle has an angle of 90 degrees, what is it called?</p>
          <label>
             <input type="radio" name="question2" value="obtuse">obtuse
          </label>
@@ -35,11 +36,86 @@
          <label>
             <input type="radio" name="question2" value="right angled">right angled
          </label>
-      </div>
+        </div>
+     
    </form>
    <button id="submit-answer">submit answer</button>
 
    <div id="output"></div>
+
+
+   <footer>
+
+      <!-- source -->
+  <div class="source">
+      <div class="button">
+          <div class="icon">
+              <a href="" target="_blank">
+                  <i class="fas fa-code"></i>
+                  <img src="images/source.svg" width="50px"/>
+          </div>
+          <span>Source Code</span>
+              </a>
+      </div>
+  </div>
+  
+
+  <div class="wrapper">
+      
+      <!-- 1st child -->
+      <div class="button">
+          <div class="icon">
+              <a href="https://shivani-soni-neog-portfolio.netlify.app/" target="_blank">
+                  <i class="fas fa-user"></i>
+                  <img src="images/portfolio.svg" width="30px"/>
+          </div>
+          <span>Portfolio</span>
+              </a>
+      </div>
+
+      <!-- 2st child -->
+      <div class="button">
+          <div class="icon">
+              <a href="https://www.linkedin.com/in/shivani-soni-93720b150/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
+              <img src="images/linkedin.svg" width="25px"/>
+          </div>
+          <span>LinkedIn</span>
+              </a>
+      </div>
+
+      <!-- 3nd child -->
+      <div class="button">
+          <div class="icon">
+              <a href="https://github.com/shivaniss24/mark-11-birthday-lucky" target="_blank">
+              <i class="fab fa-github"></i>
+              <img src="images/github.svg" width="25px"/>
+          </div>
+          <span>Github</span>
+              </a>
+      </div>
+      
+       <!--4th child -->
+      <div class="button">
+          <div class="icon">
+              <a href="https://www.instagram.com/shivanisonii__/" target="_blank">
+              <i class="fab fa-instagram"></i>
+              <img src="images/instagram.svg" width="20px"/>
+          </div>
+          <span>Instagram</span>
+              </a>
+      </div>
+
+      
+  </div>
+
+  
+  <div class="copyright">2022 | Shivani-soni</div>
+  </footer>
+
+
+
+
    <script src="quiz.js"></script>
 
 </body>
