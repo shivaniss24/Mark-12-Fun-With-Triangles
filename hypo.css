@@ -10,6 +10,25 @@ body{
 h1{
     text-align: center;
 }
+nav{
+    display: block;
+    margin: 2rem auto;
+    font-family: var(--font-two);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    justify-content: center;
+    margin: auto 2.5rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
 input,
 label
 {
@@ -46,6 +65,7 @@ button:hover{
 
 .footer-list
 {
+    
     display: block;
     text-align: center;
     margin: auto;
@@ -58,19 +78,16 @@ button
 {
     cursor: pointer;
 }
-
-
 .source{
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 7rem;
     margin-bottom: 2rem;
-    margin-top: 9rem;
 }
 
 .source .button {
     display: inline-block;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin: 0 5px;
     overflow: hidden;
     background: #fff;
@@ -102,13 +119,20 @@ button
 .source .button i{
     line-height: 3rem;
 }
-
-
+footer{
+    margin-top: 10rem;
+box-sizing: border-box;
+display: grid;
+height: 100%;
+width: 100%;
+place-items: center;
+font-family: var(--font-four);
+}
 .wrapper .button {
     display: inline-block;
-    height: 50px;
-    width: 50px;
-    margin: 1px;
+    height: 60px;
+    width: 60px;
+    margin: 0 5px;
     overflow: hidden;
     background: #fff;
     border-radius: 50px;
