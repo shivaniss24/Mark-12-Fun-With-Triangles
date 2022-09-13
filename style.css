@@ -1,0 +1,283 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,700&display=swap');
+
+:root{
+    --font-one: 'Combo', cursive;   
+    --font-two: 'Raleway', sans-serif;
+}
+body{
+    background-color:papayawhip;
+}
+
+nav{
+    display: block;
+    margin: 2rem auto;
+    font-family: var(--font-two);
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+    justify-content: center;
+    margin: auto 2.5rem;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+/* tag h1 */
+
+h1{
+    font-family: var(--font-two);
+    text-align: center;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: auto;
+    margin-top: -1rem;
+}
+
+h2{
+    font-family: var(--font-two);
+    text-align: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: auto;
+    margin-bottom: 1.5rem;;
+}
+
+.container{
+    text-align: center;
+    justify-content: center;
+    margin: 1rem auto;
+    font-family: var(--font-one);
+    font-weight: bold;
+    font-size: 1.5rem;
+    display:grid;
+    margin-bottom: 3rem;
+}
+
+input{
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-one);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0.7rem auto;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    max-width: 50%;
+}
+
+input:hover{
+    /* background:black; */
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+
+label{
+    margin: auto;
+    text-transform: uppercase;
+}
+
+button{
+    font-family: var(--font-one);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem auto;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+button:hover{
+    background:black;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+#output-hypotenuse{
+    margin-bottom: 4rem;
+    margin-top: 0.5rem;
+}
+
+.ip-hypo{
+    margin: 1rem auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.label-hypo{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+/* template applied */
+
+/* class about*/
+
+.about{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: -2rem;
+    font-family: var(--font-two);
+    font-size: 1.5rem;
+}
+
+/* class app */
+
+.app{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: var(--font-one);
+    margin: 0.5rem;
+}
+
+/* link color */
+
+.social-link{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+/* source */
+
+.source{
+    text-align: center;
+    margin: 0.5rem auto;
+    background: transparent;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    display: inline-block;
+    font-family: var(--font-one);
+    transition: all 0.3s ease-in-out;
+}
+
+/* class btn */
+
+.btn-source{
+    text-align: center;
+    margin: 1rem;
+}
+
+/* button (source) => hover */
+.source:hover{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+/* class social */
+
+.social{
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+	padding: 0.5rem 0.5rem;
+    justify-content: center;
+}
+
+/* class social-list */
+
+.social-list{
+    display: inline-block;
+    margin: 0.2rem 1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* social link color on hover */
+
+i.fa.fa-linkedin.fa-1x:hover {
+    color: #0077b5;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-github.fa-1x:hover {
+    color: #171515 ;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-stack-overflow.fa-1x:hover {
+    color: #ef8236;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+.hashnode{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    background: all black;
+}
+
+.hashnode:hover{
+    transition: all 0.3s ease-in-out;
+    font-weight: bold;
+    color: #2962ff;
+}
+
+i.fa.fa-twitter.fa-1x:hover {
+    color: #00acee ;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-whatsapp.fa-1x:hover {
+    color: 	#075E54;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+i.fa.fa-instagram.fa-1x:hover {
+    color: 	#C13584;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+    background: all black;
+}
+
+/* copyright */
+
+.copyright{
+    justify-content: center;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    margin: 2rem;
+    /* border: 2px solid black; */
+    border-radius: 0.3rem;
+    padding: 0.2rem 0.5rem;
+    transition: all 0.3s ease-in-out;
+    color: black;
+    font-family: var(--font-one);
+}
+
+.cr{
+    text-align: center;
+}
