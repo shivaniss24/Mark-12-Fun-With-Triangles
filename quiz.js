@@ -1,7 +1,7 @@
 const quizForm = document.querySelector(".quiz-form");
 const submitAnswerButton = document.querySelector("#submit-answer-btn");
 const op = document.querySelector("#output");
-const correctAnswers = ["90°", "Right Angled"];
+const correctAnswers = ["A geometric figure","3","polygon","90°","Right Angled"];
 
 function calculateScore(){
     let score = 0;

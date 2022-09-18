@@ -84,7 +84,8 @@ input:hover{
 
 label{
     margin: auto;
-    text-transform: uppercase;
+    /* justify-content: left; */
+    /* text-transform: uppercase; */
 }
 
 button{
@@ -145,139 +146,34 @@ button:hover{
     font-family: var(--font-one);
     margin: 0.5rem;
 }
-
-/* link color */
-
-.social-link{
-    color: black;
-    text-align: center;
-    justify-content: center;
-    text-decoration: none;
+.footer
+{
+  margin-top: 7rem;
+  justify-content: center;
 }
-
-/* source */
-
-.source{
+.copyright
+{
     text-align: center;
-    margin: 0.5rem auto;
-    background: transparent;
-    justify-content: center;
-    padding: 0.5rem 1rem;
-    border: 2px solid black;
-    border-radius: 0.3rem;
-    font-weight: bold;
+    font-family: var(--font-two);
+}
+.footer .social
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    margin-bottom: 0.5rem;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
     display: inline-block;
-    font-family: var(--font-one);
-    transition: all 0.3s ease-in-out;
+    border-radius: 50%;
+    margin: 0.8px;
+    opacity: 0.90;
 }
-
-/* class btn */
-
-.btn-source{
-    text-align: center;
-    margin: 1rem;
-}
-
-/* button (source) => hover */
-.source:hover{
-    transition: all 0.3s ease-in-out;
-    font-weight: bold;
-    background: black;
-    color: white;
-}
-
-/* class social */
-
-.social{
-    list-style-type: none;
-    margin: 0 auto;
-    text-align: center;
-	padding: 0.5rem 0.5rem;
-    justify-content: center;
-}
-
-/* class social-list */
-
-.social-list{
-    display: inline-block;
-    margin: 0.2rem 1rem;
-    text-align: center;
-    justify-content: center;
-    font-size: 1.5rem;
-}
-
-/* social link color on hover */
-
-i.fa.fa-linkedin.fa-1x:hover {
-    color: #0077b5;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-i.fa.fa-github.fa-1x:hover {
-    color: #171515 ;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-i.fa.fa-stack-overflow.fa-1x:hover {
-    color: #ef8236;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-.hashnode{
-    transition: all 0.3s ease-in-out;
-    font-weight: bold;
-    background: all black;
-}
-
-.hashnode:hover{
-    transition: all 0.3s ease-in-out;
-    font-weight: bold;
-    color: #2962ff;
-}
-
-i.fa.fa-twitter.fa-1x:hover {
-    color: #00acee ;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-i.fa.fa-whatsapp.fa-1x:hover {
-    color: 	#075E54;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-i.fa.fa-instagram.fa-1x:hover {
-    color: 	#C13584;
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
-    background: all black;
-}
-
-/* copyright */
-
-.copyright{
-    justify-content: center;
-    text-align: center;
-    display: inline-block;
-    font-weight: bold;
-    margin: 2rem;
-    /* border: 2px solid black; */
-    border-radius: 0.3rem;
-    padding: 0.2rem 0.5rem;
-    transition: all 0.3s ease-in-out;
-    color: black;
-    font-family: var(--font-one);
-}
-
-.cr{
-    text-align: center;
+.footer .social a:hover{
+    background-color: white;
+    border: 1px solid black;
 }
